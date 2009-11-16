@@ -22,7 +22,7 @@ filetype plugin on
 map <C-J> <C-W>j . <C-W>_
 map <C-K> <C-W>k . <C-W>_
 
-colorscheme wombat
+colorscheme torte
 autocmd BufEnter * cd %:p:h
 autocmd BufWritePre *.py :%s/\s\+$//e
 
