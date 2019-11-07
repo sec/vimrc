@@ -27,3 +27,4 @@ autocmd BufEnter * cd %:p:h
 autocmd BufWritePre *.py :%s/\s\+$//e
 
 au BufRead,BufNewFile *.mako set filetype=mako
+set gfn=DejaVu_Sans_Mono:h10:cEASTEUROPE
