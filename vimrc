@@ -23,8 +23,3 @@ map <C-J> <C-W>j . <C-W>_
 map <C-K> <C-W>k . <C-W>_
 
 colorscheme torte
-autocmd BufEnter * cd %:p:h
-autocmd BufWritePre *.py :%s/\s\+$//e
-
-au BufRead,BufNewFile *.mako set filetype=mako
-set gfn=DejaVu_Sans_Mono:h10:cEASTEUROPE
